@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	
+<web-app>
+
+  <description>United Safety CRM</description>
+  <display-name>CRM</display-name>
+	<servlet>
+	    <servlet-name>action</servlet-name>
+	    <servlet-class>org.apache.struts.action.ActionServlet</servlet-class>
+	    <init-param>
+	        <param-name>config</param-name>
+	        <param-value>/WEB-INF/struts-config.xml</param-value>
+	    </init-param>
+	    <load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet>
+	    <servlet-name>startup</servlet-name>
+	    <servlet-class>com.pfe.crm.core.web.StartupServlet</servlet-class>
+	    <load-on-startup>1</load-on-startup>
+	</servlet>
+	
+	<servlet-mapping>
+	    <servlet-name>action</servlet-name>
+	    <url-pattern>*.do</url-pattern>
+	</servlet-mapping>
+
+	<welcome-file-list>
+		<welcome-file>/index.jsp</welcome-file>
+	</welcome-file-list>
+	
+	<taglib>
+		<taglib-uri>/struts-html</taglib-uri>
+		<taglib-location>/WEB-INF/tld/struts-html.tld</taglib-location>
+	</taglib>
+	<taglib>
+		<taglib-uri>/struts-bean</taglib-uri>
+		<taglib-location>/WEB-INF/tld/struts-bean.tld</taglib-location>
+	</taglib>
+	<taglib>
+		<taglib-uri>/struts-logic</taglib-uri>
+		<taglib-location>/WEB-INF/tld/struts-logic.tld</taglib-location>
+	</taglib>		
+	<taglib>
+		<taglib-uri>/struts-tiles</taglib-uri>
+		<taglib-location>/WEB-INF/tld/struts-tiles.tld</taglib-location>
+	</taglib>
+	<taglib>
+		<taglib-uri>/ndg-report</taglib-uri>
+		<taglib-location>/WEB-INF/tld/ndg-report.tld</taglib-location>
+	</taglib>	
+	<taglib>
+		<taglib-uri>/ndg-message</taglib-uri>
+		<taglib-location>/WEB-INF/tld/ndg-message.tld</taglib-location>
+	</taglib>	
+	<!--  
+	<taglib>
+		<taglib-uri>/crm-core</taglib-uri>
+		<taglib-location>/WEB-INF/tld/crm-core.tld</taglib-location>
+	</taglib>
+	-->	
+	
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	   - Basic security (i.e. dialog and not form-based).  
+	   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <security-constraint>
+  	<web-resource-collection>
+  		<web-resource-name>weball</web-resource-name>
+  		<description></description>
+  		<url-pattern>*.do</url-pattern>
+  		<http-method>GET</http-method>
+  		<http-method>POST</http-method>
+  	</web-resource-collection>
+  	<auth-constraint>
+  		<description>only administrators get access</description>
+  		<role-name>pfeUser</role-name>
+  	</auth-constraint>
+  </security-constraint>
+  <login-config>
+    <auth-method>FORM</auth-method>
+	  <form-login-config>
+	    <form-login-page>/user/login.jsp</form-login-page>
+	    <form-error-page>/user/login_error.jsp</form-error-page>
+	  </form-login-config>    
+    <realm-name>defaultRealm</realm-name>
+  </login-config>
+  <security-role>
+    <description>PFE Employee User</description>
+    <role-name>pfeUser</role-name>
+  </security-role>
+</web-app>

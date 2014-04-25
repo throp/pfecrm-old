@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+   "-//Hibernate/Hibernate Mapping DTD//EN"
+   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" > 
+<hibernate-mapping package="com.pfe.crm.domain.entity"> 
+	<class name="Job" table="job">
+		<id name="id" type="integer" column="job_id">
+			<generator class="increment" />
+		</id>
+		<property name="dateInRoadTechQueue" column="in_road_tech_queue_dt" type="java.util.Date" />
+		<property name="dateInShopTechQueue" column="in_shop_tech_queue_dt" type="java.util.Date" />
+		<property name="dateInReturnTechQueue" column="in_return_tech_queue_dt" type="java.util.Date" />
+		<property name="dateReadyForReturn" column="ready_for_return_dt" type="java.util.Date" />
+		<property name="dateCompleted" column="completed_dt" type="java.util.Date" />
+		<property name="dateBilled" column="billed_dt" type="java.util.Date" />
+		<property name="invoiceAmount" column="invoice_am" />
+		<property name="invoiceNumber" column="invoice_number_tx" />
+		<property name="monthDue" column="month_due_num" type="com.pfe.crm.domain.type.MonthUserType" />
+		<property name="yearDue" column="year_due_num" type="com.pfe.crm.domain.type.YearUserType" />		
+		<many-to-one 
+			name="service" 
+			column="service_id" 
+			class="Service" 
+			not-null="true" />
+		<many-to-one 
+			name="serviceCall" 
+			column="service_call_id" 
+			class="ServiceCall" 
+			not-null="false" />			
+		<many-to-one 
+			name="roadTechnician" 
+			column="road_tech_employee_id" 
+			class="Employee" 
+			not-null="false"
+			outer-join="true"  />		
+		<many-to-one 
+			name="shopTechnician" 
+			column="shop_tech_employee_id" 
+			class="Employee" 
+			not-null="false"
+			outer-join="true"  />		
+		<many-to-one 
+			name="creditedTechnician" 
+			column="credited_tech_employee_id" 
+			class="Employee" 
+			not-null="false"
+			outer-join="true"  />								
+		<many-to-one 
+			name="returnTechnician" 
+			column="return_tech_employee_id" 
+			class="Employee" 
+			not-null="false"
+			outer-join="true"  />			
+	</class>
+</hibernate-mapping>

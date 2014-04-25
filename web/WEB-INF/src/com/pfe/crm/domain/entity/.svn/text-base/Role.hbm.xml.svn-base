@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+   "-//Hibernate/Hibernate Mapping DTD//EN"
+   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" > 
+<hibernate-mapping package="com.pfe.crm.domain.entity"> 
+	<class name="Role" table="crm_user_role">
+		<id name="id" type="integer" column="crm_user_role_id" >
+			<generator class="increment" />
+		</id>
+		<property name="userName" type="string" column="user_name_tx" />
+		<property name="roleType" column="role_name_tx"
+					type="com.pfe.crm.domain.type.RoleTypeUserType" />
+		<many-to-one 
+			name="employee" 
+			column="employee_id" 
+			class="Employee"  />	
+	</class>
+
+</hibernate-mapping>	

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE taglib PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.1//EN" "http://java.sun.com/j2ee/dtds/web-jsptaglibrary_1_1.dtd">
+<taglib>
+<tlibversion>1.2</tlibversion>
+<jspversion>1.1</jspversion>
+<shortname>message</shortname>
+<uri>ndg-message</uri>   
+    <tag>
+    	<name>messages</name>
+    	<tagclass>com.ndg.core.web.message.MessageTag</tagclass>
+    	<info>Display the messages from the MessageManager</info>
+    	<attribute>
+    		<name>clear</name>
+    	</attribute>
+    </tag>
+</taglib>
+
+
+
+	    

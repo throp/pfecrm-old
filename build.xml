@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+
+<!-- 
+  - build.xml 
+  - 
+  - The core build file for the PFE Corporation's CRM web application.
+  - Please adjust build.properies to match your environment.
+  -
+  - @author Ben Northrop
+  - June 28th, 2007
+  -->
+<project name="NDG PFE Corp CRM Build" default="jar" basedir=".">
+
+    <property file="build.properties" />
+
+	<!-- Set Classpath File Set -->
+	<path id="classpath">
+		<fileset dir="${lib.dir}">
+			<include name="**/*.jar" />
+		</fileset>
+        <fileset dir="${tomcat.common.lib}">
+            <include name="servlet-api.jar" />
+        </fileset>
+	</path>
+	
+	
+	<!-- Target to create the build directories prior to a compile target -->
+	<target name="prepare">
+		<mkdir dir="${build.dir}"/>
+		<mkdir dir="${build.classes}"/>
+		<mkdir dir="${build.lib}"/>
+		<tstamp/>
+		<echo message="${TSTAMP}" />
+	</target>
+
+	<!-- Delete class files built during previous builds.  Leave directories -->
+	<target name="clean">
+		<delete dir="${build.dir}" />
+		<delete file="${tomcat.deploy}/CRM.war"/>
+	</target>
+	
+	<!-- Build the application -->
+	<target name="compile" depends="prepare">
+		<javac destdir="${build.classes}" debug="${debug.flag}" deprecation="on">
+			<src path="${src.dir}" />
+			<classpath refid="classpath" />
+		</javac>
+		<copy todir="${build.classes}">
+			<fileset dir="${src.dir}">
+				<include name="*.properties" />
+				<include name="**/**/*.xml" />
+			</fileset>
+		</copy>
+	</target>
+	
+	<!-- Jar the application -->
+	<target name="jar" depends="compile" description="Generates crm.jar in the dist directory.">
+		<jar jarfile="${build.lib}/crm.jar" basedir="${build.classes}" />
+	</target>
+	
+	<!-- War the web application -->
+	<target name="war" depends="compile">
+		<war warfile="${build.lib}/CRM.war" webxml="${web.dir}/WEB-INF/web.xml">
+			<fileset dir="${web.dir}">
+				<exclude name="**/classes/**" />
+				<exclude name="**/src/**" />
+				<exclude name="**/test/**" />
+				<exclude name="**/web.xml" />
+				<exclude name="**/lib/**" />
+				<exclude name="**/CVS/**" />
+			</fileset>
+			<classes dir="${build.classes}" />
+			<classes dir="${lib.dir}">
+				<include name="*.properties" />
+			</classes>
+			<lib dir="${lib.dir}">
+				<include name="*.jar" />
+			</lib>
+		</war>
+	</target>
+		
+	<!-- Create the Javadoc for the source file. -->
+	<target name="javadoc" depends="deploy">
+		<mkdir dir="${doc.dir}/api" />
+		<javadoc packagenames="com.bjn.*" sourcepath="${src.dir}" destdir="${doc.dir}/api" author="true" version="true" use="true">
+			<classpath refid="classpath" />
+		</javadoc>
+	</target>
+	
+
+	<!-- Deploy the application in a "ready-to-run" java state -->
+	<target name="deploy" depends="war">
+		<move file="${tomcat.deploy}/CRM.war" todir="${build.lib}/CRM.war.BACKUP" failonerror="false" />
+		<copy todir="${tomcat.deploy}" file="${build.lib}/CRM.war" />
+	</target>
+
+	
+	<!-- Do all: compile, jar, and javadoc. -->
+	<target name="all" depends="javadoc" description="Cleans, compiles, builds the JAR file, and runs JavaDoc." />
+
+
+	<!-- Deploy the web application to Tomcat -->
+	<target name="install">
+		<deploy url="${manager.url}" 
+						username="${manager.username}" 
+						password="${manager.password}" 
+						path="/CRM" 
+						localWar="file://C:\Codebase\JavaRef\${build.lib}\CRM.war" />
+	</target>
+
+    
+    <!-- Create the database for the app using MySQL -->
+    <target name="db-create">
+         <antcall target="executeSQL">
+           <param name="dbscript" value="create_database.sql"/>
+         </antcall>
+         <antcall target="executeSQL">
+           <param name="dbscript" value="create_tables.sql"/>
+         </antcall>        
+    </target>
+    
+    <!-- Load default data into the database -->
+    <target name="db-load">
+         <antcall target="executeSQL">
+           <param name="dbscript" value="delete_data.sql"/>
+         </antcall>            
+         <antcall target="executeSQL">
+           <param name="dbscript" value="insert_default_data.sql"/>
+         </antcall>      
+    </target>
+    
+    <!-- Drop the database -->
+    <target name="db-drop">
+      <antcall target="executeSQL">
+        <param name="dbscript" value="drop_database.sql"/>
+      </antcall>
+    </target>
+        
+    <!-- Execute some sql statement on the database -->
+    <target name="executeSQL">
+        <echo message="${db.create.dir}/${dbscript}" />
+            <sql classpath="${lib.dir}/mysql-connector-java-3.1.12-bin.jar"
+             driver="com.mysql.jdbc.Driver"
+             src="${db.scripts.dir}/${dbscript}"
+             url="${db.url}"
+             userid="${db.user}" 
+             password="${db.password}" />
+    </target>
+</project>

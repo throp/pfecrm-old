@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/CRM/!svn/ver/1/web/WEB-INF/tld
+END
+struts-logic.tld
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/CRM/!svn/ver/1/web/WEB-INF/tld/struts-logic.tld
+END
+ndg-report.tld
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/CRM/!svn/ver/1/web/WEB-INF/tld/ndg-report.tld
+END
+struts-tiles.tld
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/CRM/!svn/ver/1/web/WEB-INF/tld/struts-tiles.tld
+END
+struts-nested.tld
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/CRM/!svn/ver/1/web/WEB-INF/tld/struts-nested.tld
+END
+struts-html.tld
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/CRM/!svn/ver/1/web/WEB-INF/tld/struts-html.tld
+END
+struts-bean.tld
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/CRM/!svn/ver/1/web/WEB-INF/tld/struts-bean.tld
+END
+ndg-message.tld
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/CRM/!svn/ver/1/web/WEB-INF/tld/ndg-message.tld
+END

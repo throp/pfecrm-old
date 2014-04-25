@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/CRM/!svn/ver/28/web/WEB-INF/lib
+END
+struts.jar
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/CRM/!svn/ver/1/web/WEB-INF/lib/struts.jar
+END
+c3p0-0.9.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/CRM/!svn/ver/1/web/WEB-INF/lib/c3p0-0.9.0.jar
+END
+jakarta-oro.jar
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/CRM/!svn/ver/1/web/WEB-INF/lib/jakarta-oro.jar
+END
+asm-attrs.jar
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/CRM/!svn/ver/1/web/WEB-INF/lib/asm-attrs.jar
+END
+jdbc2_0-stdext.jar
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/CRM/!svn/ver/1/web/WEB-INF/lib/jdbc2_0-stdext.jar
+END
+ehcache-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/CRM/!svn/ver/1/web/WEB-INF/lib/ehcache-1.1.jar
+END
+dom4j-1.6.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/CRM/!svn/ver/1/web/WEB-INF/lib/dom4j-1.6.1.jar
+END
+jta.jar
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/CRM/!svn/ver/1/web/WEB-INF/lib/jta.jar
+END
+commons-digester.jar
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/CRM/!svn/ver/1/web/WEB-INF/lib/commons-digester.jar
+END
+cglib-2.1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/CRM/!svn/ver/1/web/WEB-INF/lib/cglib-2.1.3.jar
+END
+asm.jar
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/CRM/!svn/ver/1/web/WEB-INF/lib/asm.jar
+END
+ndg-report.jar
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/CRM/!svn/ver/1/web/WEB-INF/lib/ndg-report.jar
+END
+log4j-1.2.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/CRM/!svn/ver/1/web/WEB-INF/lib/log4j-1.2.8.jar
+END
+ndg-util.jar
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/CRM/!svn/ver/14/web/WEB-INF/lib/ndg-util.jar
+END
+hibernate3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/CRM/!svn/ver/1/web/WEB-INF/lib/hibernate3.jar
+END
+commons-collections-2.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/CRM/!svn/ver/1/web/WEB-INF/lib/commons-collections-2.1.1.jar
+END
+testng-5.6-jdk15.jar
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/CRM/!svn/ver/28/web/WEB-INF/lib/testng-5.6-jdk15.jar
+END
+junit.jar
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/CRM/!svn/ver/1/web/WEB-INF/lib/junit.jar
+END
+ndg-message.jar
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/CRM/!svn/ver/1/web/WEB-INF/lib/ndg-message.jar
+END
+xml-apis.jar
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/CRM/!svn/ver/1/web/WEB-INF/lib/xml-apis.jar
+END
+commons-fileupload.jar
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/CRM/!svn/ver/1/web/WEB-INF/lib/commons-fileupload.jar
+END
+commons-validator.jar
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/CRM/!svn/ver/1/web/WEB-INF/lib/commons-validator.jar
+END
+antlr-2.7.6rc1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/CRM/!svn/ver/1/web/WEB-INF/lib/antlr-2.7.6rc1.jar
+END
+commons-logging.jar
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/CRM/!svn/ver/1/web/WEB-INF/lib/commons-logging.jar
+END
+commons-beanutils.jar
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/CRM/!svn/ver/1/web/WEB-INF/lib/commons-beanutils.jar
+END
+CRMMessageResources.properties
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/CRM/!svn/ver/1/web/WEB-INF/lib/CRMMessageResources.properties
+END
+mysql-connector-java-3.1.12-bin.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/CRM/!svn/ver/1/web/WEB-INF/lib/mysql-connector-java-3.1.12-bin.jar
+END

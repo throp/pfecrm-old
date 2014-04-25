@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+   "-//Hibernate/Hibernate Mapping DTD//EN"
+   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" > 
+<hibernate-mapping package="com.pfe.crm.domain.entity"> 
+	<class name="Contact" table="contact">
+		<id name="id" type="integer" column="contact_id">
+			<generator class="increment" />
+		</id>
+		<property name="firstName" column="first_name_tx" not-null="true" />
+		<property name="lastName" column="last_name_tx" not-null="true" />
+		<property name="title" column="title_tx" not-null="false" />
+		<property name="emailAddress" column="email_address_tx" />		
+		<property name="phoneNumber" column="phone_number_tx" />		
+		<one-to-one name="customer"
+			class="Customer" />	
+		<set name="locations" inverse="true" cascade="none">
+			<key column="customer_id" />
+			<one-to-many class="Location" />
+		</set>
+	</class>
+</hibernate-mapping>	

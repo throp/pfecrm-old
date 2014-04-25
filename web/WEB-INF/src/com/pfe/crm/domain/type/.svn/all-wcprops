@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/CRM/!svn/ver/47/web/WEB-INF/src/com/pfe/crm/domain/type
+END
+Year.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/CRM/!svn/ver/39/web/WEB-INF/src/com/pfe/crm/domain/type/Year.java
+END
+YearUserType.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/domain/type/YearUserType.java
+END
+ServiceType.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/CRM/!svn/ver/19/web/WEB-INF/src/com/pfe/crm/domain/type/ServiceType.java
+END
+RoleType.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/domain/type/RoleType.java
+END
+ServiceTypeUserType.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/domain/type/ServiceTypeUserType.java
+END
+RoleTypeUserType.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/domain/type/RoleTypeUserType.java
+END
+CustomerStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/CRM/!svn/ver/19/web/WEB-INF/src/com/pfe/crm/domain/type/CustomerStatus.java
+END
+CustomerStatusUserType.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/domain/type/CustomerStatusUserType.java
+END
+FireExtinguisherServiceType.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/CRM/!svn/ver/47/web/WEB-INF/src/com/pfe/crm/domain/type/FireExtinguisherServiceType.java
+END
+FireExtinguisherServiceTypeUserType.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/domain/type/FireExtinguisherServiceTypeUserType.java
+END
+MonthlyFrequency.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/CRM/!svn/ver/15/web/WEB-INF/src/com/pfe/crm/domain/type/MonthlyFrequency.java
+END
+MonthlyFrequencyUserType.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/domain/type/MonthlyFrequencyUserType.java
+END
+Floor.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/CRM/!svn/ver/36/web/WEB-INF/src/com/pfe/crm/domain/type/Floor.java
+END
+EmployeeType.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/CRM/!svn/ver/19/web/WEB-INF/src/com/pfe/crm/domain/type/EmployeeType.java
+END
+FloorUserType.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/domain/type/FloorUserType.java
+END
+EmployeeTypeUserType.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/domain/type/EmployeeTypeUserType.java
+END
+Month.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/CRM/!svn/ver/15/web/WEB-INF/src/com/pfe/crm/domain/type/Month.java
+END
+MonthUserType.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/domain/type/MonthUserType.java
+END
+FireExtinguisherTestType.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/CRM/!svn/ver/19/web/WEB-INF/src/com/pfe/crm/domain/type/FireExtinguisherTestType.java
+END
+FireExtinguisherTestTypeUserType.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/CRM/!svn/ver/19/web/WEB-INF/src/com/pfe/crm/domain/type/FireExtinguisherTestTypeUserType.java
+END

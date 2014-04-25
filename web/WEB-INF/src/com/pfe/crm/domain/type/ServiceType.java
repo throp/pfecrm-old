@@ -1,0 +1,139 @@
+/**
+ * 
+ */
+package com.pfe.crm.domain.type;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+/**
+ * ServiceType
+ * 
+ * The type of service (e.g. FireExtinguisher, etc.).
+ * 
+ * @author Ben Northrop
+ * 
+ */
+public class ServiceType
+{
+    // DATA MEMBERS
+    private int id;
+
+    private String name;
+
+    private String abbreviation;
+
+    private static List<ServiceType> list;
+
+    // CONSTRUCTOR
+    public ServiceType() { 
+        
+    }
+    
+    /**
+     * Private constructor, since typesafe enum.
+     */
+    private ServiceType(int id, String name, String abbreviation)
+    {
+        this.id = id;
+        this.name = name;
+        this.abbreviation = abbreviation;
+    }
+
+    // TYPES
+    public final static ServiceType FIRE_EXTINGUISHER = new ServiceType(1,
+            "Fire Extinguisher", "Fire Ext");
+
+    public final static ServiceType FIRE_HOSE = new ServiceType(2, "Fire Hose",
+            "Fire Hose");
+
+    public final static ServiceType EMERGENCY_LIGHTING = new ServiceType(3,
+            "Emergency Lighting", "Em Light");
+
+    public final static ServiceType DEMOS = new ServiceType(4, "Demos", "Demos");
+
+    public final static ServiceType FIRE_ALARMS = new ServiceType(5,
+            "Fire Alarm", "Fire Alarm");
+
+    public final static ServiceType SUPPRESSION_SYSTEMS = new ServiceType(6,
+            "Suppression Systems", "Supp Sys");
+
+    // METHODS
+    /**
+     * Return the list of all Months
+     */
+    public static List<ServiceType> list()
+    {
+        if (list == null) {
+            list = new ArrayList<ServiceType>();
+            list.add(FIRE_EXTINGUISHER);
+            list.add(FIRE_HOSE);
+            list.add(EMERGENCY_LIGHTING);
+            list.add(DEMOS);
+            list.add(FIRE_ALARMS);
+            list.add(SUPPRESSION_SYSTEMS);
+        }
+        return list;
+    }
+
+    /**
+     * Return the month for the given month number
+     */
+    public static ServiceType getInstance(int id)
+    {
+        Iterator iter = list().iterator();
+        while (iter.hasNext()) {
+            ServiceType serviceType = (ServiceType) iter.next();
+            if (serviceType.getId() == id) {
+                return serviceType;
+            }
+        }
+        throw new IllegalArgumentException("Invalid service type: " + id);
+    }
+
+    /**
+     * Generate a string representation.
+     */
+    public String toString()
+    {
+        return name;
+    }
+
+    /**
+     * Equals if id's are equal.
+     */
+    public boolean equals(Object o)
+    {
+        if (o instanceof ServiceType) {
+            return ((ServiceType) o).getId() == this.id;
+        }
+        return false;
+    }
+
+    // ACCESSORS
+    /**
+     * @return the id
+     */
+    public int getId()
+    {
+        return id;
+    }
+
+    /**
+     * @return the name
+     */
+    public String getName()
+    {
+        return name;
+    }
+
+    /**
+     * @return the abbreviation
+     */
+    public String getAbbreviation()
+    {
+        return abbreviation;
+    }
+
+}

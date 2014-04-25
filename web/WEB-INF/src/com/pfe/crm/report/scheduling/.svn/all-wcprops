@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/CRM/!svn/ver/19/web/WEB-INF/src/com/pfe/crm/report/scheduling
+END
+WiPManagerLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/CRM/!svn/ver/19/web/WEB-INF/src/com/pfe/crm/report/scheduling/WiPManagerLoader.java
+END
+RoutingManagerLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/CRM/!svn/ver/19/web/WEB-INF/src/com/pfe/crm/report/scheduling/RoutingManagerLoader.java
+END
+RevenueManagerLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/CRM/!svn/ver/12/web/WEB-INF/src/com/pfe/crm/report/scheduling/RevenueManagerLoader.java
+END
+InvoiceManagerLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/CRM/!svn/ver/12/web/WEB-INF/src/com/pfe/crm/report/scheduling/InvoiceManagerLoader.java
+END

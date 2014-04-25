@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+   "-//Hibernate/Hibernate Mapping DTD//EN"
+   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" > 
+<hibernate-mapping package="com.pfe.crm.domain.entity"> 
+	<class name="Employee" table="employee">
+		<id name="id" type="integer" column="employee_id">
+			<generator class="increment" />
+		</id>
+		<property name="firstName" column="first_name_tx" not-null="true" />
+		<property name="lastName" column="last_name_tx" not-null="true" />
+		<property name="employeeType" column="employee_type_id"
+					type="com.pfe.crm.domain.type.EmployeeTypeUserType" />
+		<property name="isActive" column="is_active_bn" type="java.lang.Boolean" />
+		<set name="customerNotes" inverse="true" cascade="all-delete-orphan">
+			<key column="employee_id" />
+			<one-to-many class="CustomerNote" />
+		</set>	
+		<set name="locationNotes" inverse="true" cascade="all-delete-orphan">
+			<key column="employee_id" />
+			<one-to-many class="LocationNote" />
+		</set>	
+			<set name="serviceCalls" inverse="true" cascade="all-delete-orphan">
+			<key column="employee_id" />
+			<one-to-many class="ServiceCall" />
+		</set>		
+		<set name="roadTechnicianJobs" inverse="true" >
+			<key column="road_tech_employee_id" />
+			<one-to-many class="Job" />
+		</set>			
+			<set name="shopTechnicianJobs" inverse="true" >
+			<key column="shop_tech_employee_id" />
+			<one-to-many class="Job" />
+		</set>		
+		<one-to-one name="user"
+			class="User" 
+			cascade="save-update"  />		
+	</class>
+</hibernate-mapping>

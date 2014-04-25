@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+   "-//Hibernate/Hibernate Mapping DTD//EN"
+   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" > 
+<hibernate-mapping package="com.pfe.crm.domain.entity"> 
+	<class name="ActionLog" table="action_log">
+		<id name="id" column="action_log_id">
+			<generator class="increment" />
+		</id>
+		<property name="description" column="description_tx" not-null="true" />	
+		<!-- <property name="date" column="log_dt" not-null="true" />-->
+		<!-- <property name="time" column="log_tm" not-null="true" />-->
+		<many-to-one 
+			name="employee" 
+			column="employee_id" 
+			class="Employee" 
+			not-null="true" />
+	</class>
+</hibernate-mapping>

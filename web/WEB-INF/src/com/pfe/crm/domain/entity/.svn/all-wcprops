@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/CRM/!svn/ver/50/web/WEB-INF/src/com/pfe/crm/domain/entity
+END
+Service.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/CRM/!svn/ver/38/web/WEB-INF/src/com/pfe/crm/domain/entity/Service.java
+END
+InventoryItem.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/CRM/!svn/ver/19/web/WEB-INF/src/com/pfe/crm/domain/entity/InventoryItem.hbm.xml
+END
+Office.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/domain/entity/Office.hbm.xml
+END
+LocationNote.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/domain/entity/LocationNote.hbm.xml
+END
+Service.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/CRM/!svn/ver/16/web/WEB-INF/src/com/pfe/crm/domain/entity/Service.hbm.xml
+END
+Role.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/CRM/!svn/ver/10/web/WEB-INF/src/com/pfe/crm/domain/entity/Role.hbm.xml
+END
+Customer.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/CRM/!svn/ver/27/web/WEB-INF/src/com/pfe/crm/domain/entity/Customer.hbm.xml
+END
+Chemical.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/CRM/!svn/ver/30/web/WEB-INF/src/com/pfe/crm/domain/entity/Chemical.hbm.xml
+END
+Office.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/CRM/!svn/ver/50/web/WEB-INF/src/com/pfe/crm/domain/entity/Office.java
+END
+ServiceCall.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/CRM/!svn/ver/16/web/WEB-INF/src/com/pfe/crm/domain/entity/ServiceCall.java
+END
+Manufacturer.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/CRM/!svn/ver/37/web/WEB-INF/src/com/pfe/crm/domain/entity/Manufacturer.java
+END
+Role.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/CRM/!svn/ver/10/web/WEB-INF/src/com/pfe/crm/domain/entity/Role.java
+END
+Customer.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/CRM/!svn/ver/39/web/WEB-INF/src/com/pfe/crm/domain/entity/Customer.java
+END
+ActionLog.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/CRM/!svn/ver/28/web/WEB-INF/src/com/pfe/crm/domain/entity/ActionLog.hbm.xml
+END
+Employee.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/CRM/!svn/ver/18/web/WEB-INF/src/com/pfe/crm/domain/entity/Employee.hbm.xml
+END
+Note.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/domain/entity/Note.java
+END
+Chemical.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/CRM/!svn/ver/30/web/WEB-INF/src/com/pfe/crm/domain/entity/Chemical.java
+END
+Location.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/CRM/!svn/ver/44/web/WEB-INF/src/com/pfe/crm/domain/entity/Location.java
+END
+Job.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/CRM/!svn/ver/28/web/WEB-INF/src/com/pfe/crm/domain/entity/Job.java
+END
+Weight.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/CRM/!svn/ver/33/web/WEB-INF/src/com/pfe/crm/domain/entity/Weight.hbm.xml
+END
+CustomerNote.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/domain/entity/CustomerNote.hbm.xml
+END
+InventoryItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/CRM/!svn/ver/28/web/WEB-INF/src/com/pfe/crm/domain/entity/InventoryItem.java
+END
+ActionLog.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/CRM/!svn/ver/28/web/WEB-INF/src/com/pfe/crm/domain/entity/ActionLog.java
+END
+Employee.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/CRM/!svn/ver/28/web/WEB-INF/src/com/pfe/crm/domain/entity/Employee.java
+END
+ServiceCall.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/CRM/!svn/ver/7/web/WEB-INF/src/com/pfe/crm/domain/entity/ServiceCall.hbm.xml
+END
+Manufacturer.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/CRM/!svn/ver/37/web/WEB-INF/src/com/pfe/crm/domain/entity/Manufacturer.hbm.xml
+END
+FireExtinguisher.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/CRM/!svn/ver/25/web/WEB-INF/src/com/pfe/crm/domain/entity/FireExtinguisher.java
+END
+CustomerNote.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/domain/entity/CustomerNote.java
+END
+Weight.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/CRM/!svn/ver/48/web/WEB-INF/src/com/pfe/crm/domain/entity/Weight.java
+END
+EntityException.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/domain/entity/EntityException.java
+END
+Location.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/CRM/!svn/ver/27/web/WEB-INF/src/com/pfe/crm/domain/entity/Location.hbm.xml
+END
+LocationNote.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/domain/entity/LocationNote.java
+END
+Job.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/CRM/!svn/ver/14/web/WEB-INF/src/com/pfe/crm/domain/entity/Job.hbm.xml
+END

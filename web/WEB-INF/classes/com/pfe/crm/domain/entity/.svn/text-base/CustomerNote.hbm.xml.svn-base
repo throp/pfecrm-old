@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+   "-//Hibernate/Hibernate Mapping DTD//EN"
+   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" > 
+<hibernate-mapping package="com.pfe.crm.domain.entity"> 
+	<class name="CustomerNote" table="customer_note">
+		<id name="id" type="integer" column="customer_note_id">
+			<generator class="increment" />
+		</id>
+		<property name="note" column="note_tx" not-null="true" />
+		<property name="enteredDate" column="entered_dt" not-null="true" />
+		<many-to-one 
+			name="customer" 
+			column="customer_id" 
+			class="Customer" 
+			outer-join="true" 
+			not-null="true" />
+		<many-to-one 
+			name="employee" 
+			column="employee_id" 
+			class="Employee" 
+			outer-join="true" 
+			not-null="true" />
+	</class>
+</hibernate-mapping>	

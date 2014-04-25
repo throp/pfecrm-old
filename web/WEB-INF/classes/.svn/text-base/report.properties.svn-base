@@ -1,0 +1,9 @@
+Customer.loader=com.pfe.crm.report.customer.CustomerLoader
+Location.loader=com.pfe.crm.report.customer.LocationLoader
+FireExtinguisher.loader=com.pfe.crm.report.customer.FireExtinguisherLoader
+WorkReport.loader=com.pfe.crm.report.loader.WorkReportLoader
+CustomerNotes.loader=com.pfe.crm.report.customer.CustomerNotesLoader
+LocationNotes.loader=com.pfe.crm.report.customer.LocationNotesLoader
+RoutingManager.loader=com.pfe.crm.report.scheduling.RoutingManagerLoader
+WiPManager.loader=com.pfe.crm.report.scheduling.WiPManagerLoader
+rowsPerPage=20

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/CRM/!svn/ver/33/web/WEB-INF/src/com/pfe/crm/core/web
+END
+WebRequestException.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/core/web/WebRequestException.java
+END
+ListManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/CRM/!svn/ver/19/web/WEB-INF/src/com/pfe/crm/core/web/ListManager.java
+END
+RequestParameterMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/CRM/!svn/ver/33/web/WEB-INF/src/com/pfe/crm/core/web/RequestParameterMap.java
+END
+StartupServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/core/web/StartupServlet.java
+END
+BaseAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/CRM/!svn/ver/27/web/WEB-INF/src/com/pfe/crm/core/web/BaseAction.java
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/CRM/!svn/ver/48/web/WEB-INF/src/com/pfe/crm/core/dao
+END
+DAOException.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/CRM/!svn/ver/45/web/WEB-INF/src/com/pfe/crm/core/dao/DAOException.java
+END
+BaseDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/CRM/!svn/ver/48/web/WEB-INF/src/com/pfe/crm/core/dao/BaseDAO.java
+END

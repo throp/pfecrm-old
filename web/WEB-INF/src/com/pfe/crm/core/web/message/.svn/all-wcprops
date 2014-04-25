@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/core/web/message
+END
+MessageUtilities.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/core/web/message/MessageUtilities.java
+END
+ConfirmationMessageFormatter.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/core/web/message/ConfirmationMessageFormatter.java
+END
+ErrorMessageFormatter.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/core/web/message/ErrorMessageFormatter.java
+END
+BaseMessageFormatter.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/core/web/message/BaseMessageFormatter.java
+END
+InformationMessageFormatter.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/core/web/message/InformationMessageFormatter.java
+END

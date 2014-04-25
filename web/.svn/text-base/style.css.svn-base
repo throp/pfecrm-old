@@ -1,0 +1,162 @@
+		.colorMain { background-color:  #336699;  #999966; #666633; #000066; }	
+		.colorSubtle { background-color: #999999; #cccc99; }		
+		.colorXSubtle { background-color: gainsboro; }
+		.colorDark { background-color: black; #333366; #666633; #000066; }			
+		.colorAlert { background-color: red; }		
+		.colorAlternateAlert { background-color: #ff6600; }
+		.colorSubtleAlert { background-color: lightred; }
+		.textH1 { color: white; font-family:   georgia,tahoma; font-size: 18pt; font-weight: ; }
+		.textH1Inverse { color: black; font-family:   georgia,tahoma; font-size: 18pt; font-weight: ; }		
+		.textH2 { color: black; font-family:   georgia,tahoma; font-size: 12pt; font-weight: bold;}		
+		.textH3 { color: black; font-family:   georgia,tahoma; font-size: 11pt; font-weight: ;}		
+		.textH3Inverse { color: gainsboro; font-family:   georgia,tahoma; font-size: 11pt; font-weight: ;}				
+		.textInverse { color: white; font-family:   georgia,tahoma; font-size: 11pt; font-weight: ;}		
+		.textSmall { color: black; font-family:   georgia,tahoma; font-size: 9pt; font-weight: normal;}		
+		.textSubtle { color: #333333; font-family:   georgia,tahoma; font-size: 11pt; font-weight: ;}				
+		.textDisclaimer { color: #333333; font-family:   georgia,tahoma; font-size: 11pt; font-weight: ; font-style: italic;}				
+
+		TABLE { border-collapse: collapse; }
+		TD { color: black; font-family: georgia,tahoma, arial; font-size: 10pt; }
+		TH { margin: 1px 1px 1px 1px; color: black; font-weight: bold; font-family: georgia,tahoma, arial; font-size: 11pt;  text-align: left; border-bottom: 1px #330000 solid; }		
+		BODY {  font-size: 10pt;  font-family: Serif,georgia,tahoma,,verdana,verdana, arial; margin: 15px 20px 20px 20px; }	
+		FORM { margin: 0px 0px 0px 0px; }
+		A:link    { color: blue; text-decoration: none; font-family: georgia,tahoma;}
+		A:visited { color: blue; text-decoration: none; font-family: georgia,tahoma;}
+		A:hover   { color: blue; text-decoration: underline; font-family: georgia,tahoma;}
+INPUT, SELECT, TEXTAREA
+{
+   font-size		: 10pt;
+   font-family      : georgia,tahoma;
+   border-width     : 1px;
+   border-style     : solid;
+   border-color     : #999999;
+}
+
+INPUT.submit
+{
+  background-color: gainsboro;
+}
+
+TABLE.data { 
+	background-color: white;
+	border: 0px;
+}
+
+TABLE.data th { 
+	border-bottom: 1px solid black;
+	padding: 3px;
+}
+
+TABLE.data tfoot td { 
+	border-bottom: 1px solid black;
+}
+
+TABLE.data tr:hover { 
+	background-color: gainsboro;
+	color: inherit;
+}
+
+TABLE.data tbody td { 
+	padding: 3px 5px 3px 5px;
+	border-bottom: 1px solid gainsboro;
+
+}
+
+TABLE.data thead tr:hover { 
+	background-color: transparent;
+	color: inherit;
+}
+
+
+TABLE.dialog {
+	border-width: 1px;
+	border-spacing: 0px;
+	padding: 2px 2px 2px 2px;
+	border-style: outset;
+	border-color: #336699;
+	border-collapse: collapse;
+	background-color: #cccccc;
+}	
+
+TABLE.dialog th {
+	border-width: 0px;
+	padding: 4px 4px 4px 4px;
+	border-style: inset;
+	border-color: gray;
+	background-color: #336699;
+	color: white;
+}
+
+TABLE.dialog th a {
+	color: gainsboro;
+	font-weight: normal;
+}
+
+TABLE.dialog th a:visited {
+	color: gainsboro;
+	font-weight: normal;
+}
+
+dialog th a {
+	color: gainsboro;
+	font-weight: normal;
+}
+
+dialog th a:visited {
+	color: gainsboro;
+	font-weight: normal;
+}
+
+
+TABLE.dialog td { 
+	border-width: 0px;
+	padding: 5px 5px 5px 5px;
+	border-style: inset;
+	border-color: gray;
+	background-color: #cccccc;
+}
+
+DIV.dialog { 
+	visibility: hidden; 
+	position: absolute; 
+	left: 10%; 
+	top: 90%; 
+	zIndex: 100;
+}
+
+.closeDialog {
+	text-align: right;
+	border-width: 0px 0px 0px 0px;
+}
+
+IMG.dialog { 
+	padding: 2px 2px 2px 2px;
+	border-width: 0px;
+}
+
+DIV.page { 
+	text-align: right;
+	padding: 4px;
+}
+
+TR.inactive { 
+	font-style: italic;
+	text-decoration: line-through;
+}
+
+.searchBar {
+	border-width: 1px 0px 0px 1px;
+	border-style: solid;
+	border-spacing: 1px;
+	border-color: #336699;
+	padding: 5px; 
+	background-color: gainsboro;
+	color: black; font-family:   georgia,tahoma; font-size: 10pt;
+}	
+
+.userBar {
+	border-width: 0px;
+	border-spacing: 0px;
+	padding: 5px;
+	color: black; font-family:   georgia,tahoma; font-size: 10pt;
+}	

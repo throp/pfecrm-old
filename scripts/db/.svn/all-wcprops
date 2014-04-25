@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/CRM/!svn/ver/53/scripts/db
+END
+insert_default_data.sql
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/CRM/!svn/ver/45/scripts/db/insert_default_data.sql
+END
+DATBASE_BACKUP_3_08.zip
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/CRM/!svn/ver/53/scripts/db/DATBASE_BACKUP_3_08.zip
+END
+create_database.sql
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/CRM/!svn/ver/41/scripts/db/create_database.sql
+END
+drop_database.sql
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/CRM/!svn/ver/41/scripts/db/drop_database.sql
+END
+delete_data.sql
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/CRM/!svn/ver/41/scripts/db/delete_data.sql
+END
+create_tables.sql
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/CRM/!svn/ver/45/scripts/db/create_tables.sql
+END

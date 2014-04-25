@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/CRM/!svn/ver/1/web/admin/office
+END
+add_body.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/CRM/!svn/ver/1/web/admin/office/add_body.jsp
+END
+add.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/CRM/!svn/ver/1/web/admin/office/add.jsp
+END
+options.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/CRM/!svn/ver/1/web/admin/office/options.jsp
+END
+view_all_body.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/CRM/!svn/ver/1/web/admin/office/view_all_body.jsp
+END
+view_all.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/CRM/!svn/ver/1/web/admin/office/view_all.jsp
+END

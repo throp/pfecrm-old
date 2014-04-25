@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/CRM/!svn/ver/45/web/customer/location/service
+END
+edit.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/CRM/!svn/ver/7/web/customer/location/service/edit.jsp
+END
+view_all_body.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/CRM/!svn/ver/45/web/customer/location/service/view_all_body.jsp
+END
+view_all_dialog_boxes.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/CRM/!svn/ver/45/web/customer/location/service/view_all_dialog_boxes.jsp
+END
+view_all.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/CRM/!svn/ver/45/web/customer/location/service/view_all.jsp
+END

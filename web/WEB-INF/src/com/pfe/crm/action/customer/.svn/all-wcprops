@@ -1,0 +1,245 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/CRM/!svn/ver/50/web/WEB-INF/src/com/pfe/crm/action/customer
+END
+GoToUpdateCustomerStatusAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/action/customer/GoToUpdateCustomerStatusAction.java
+END
+ViewFireExtinguishersAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/CRM/!svn/ver/39/web/WEB-INF/src/com/pfe/crm/action/customer/ViewFireExtinguishersAction.java
+END
+GoToDeleteCustomerNoteAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/action/customer/GoToDeleteCustomerNoteAction.java
+END
+AddServiceCallAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/CRM/!svn/ver/17/web/WEB-INF/src/com/pfe/crm/action/customer/AddServiceCallAction.java
+END
+AddLocationNoteAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/CRM/!svn/ver/10/web/WEB-INF/src/com/pfe/crm/action/customer/AddLocationNoteAction.java
+END
+DeleteFireExtinguisherAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/CRM/!svn/ver/18/web/WEB-INF/src/com/pfe/crm/action/customer/DeleteFireExtinguisherAction.java
+END
+UpdateCustomerStatusAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/action/customer/UpdateCustomerStatusAction.java
+END
+SearchCustomersAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/action/customer/SearchCustomersAction.java
+END
+GoToDeleteLocationNoteAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/action/customer/GoToDeleteLocationNoteAction.java
+END
+GoToAddLocationAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/CRM/!svn/ver/7/web/WEB-INF/src/com/pfe/crm/action/customer/GoToAddLocationAction.java
+END
+DeleteCustomerNoteAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/CRM/!svn/ver/18/web/WEB-INF/src/com/pfe/crm/action/customer/DeleteCustomerNoteAction.java
+END
+ViewServiceCallsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/CRM/!svn/ver/4/web/WEB-INF/src/com/pfe/crm/action/customer/ViewServiceCallsAction.java
+END
+EditLocationAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/CRM/!svn/ver/27/web/WEB-INF/src/com/pfe/crm/action/customer/EditLocationAction.java
+END
+ViewCustomersAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/CRM/!svn/ver/39/web/WEB-INF/src/com/pfe/crm/action/customer/ViewCustomersAction.java
+END
+DeleteLocationNoteAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/action/customer/DeleteLocationNoteAction.java
+END
+GoToAddFireExtinguisherAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/action/customer/GoToAddFireExtinguisherAction.java
+END
+GoToAddCustomerNoteAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/action/customer/GoToAddCustomerNoteAction.java
+END
+EditFireExtinguisherAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/CRM/!svn/ver/48/web/WEB-INF/src/com/pfe/crm/action/customer/EditFireExtinguisherAction.java
+END
+ViewServiceAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/CRM/!svn/ver/13/web/WEB-INF/src/com/pfe/crm/action/customer/ViewServiceAction.java
+END
+GoToAddServiceAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/action/customer/GoToAddServiceAction.java
+END
+ViewLocationAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/CRM/!svn/ver/11/web/WEB-INF/src/com/pfe/crm/action/customer/ViewLocationAction.java
+END
+EditServiceAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/CRM/!svn/ver/18/web/WEB-INF/src/com/pfe/crm/action/customer/EditServiceAction.java
+END
+AddServiceAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/CRM/!svn/ver/18/web/WEB-INF/src/com/pfe/crm/action/customer/AddServiceAction.java
+END
+AddCustomerAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/CRM/!svn/ver/27/web/WEB-INF/src/com/pfe/crm/action/customer/AddCustomerAction.java
+END
+ViewBillingAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/action/customer/ViewBillingAction.java
+END
+GoToDeleteCustomerAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/action/customer/GoToDeleteCustomerAction.java
+END
+ViewServicesAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/CRM/!svn/ver/16/web/WEB-INF/src/com/pfe/crm/action/customer/ViewServicesAction.java
+END
+ViewFireExtinguisherAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/CRM/!svn/ver/28/web/WEB-INF/src/com/pfe/crm/action/customer/ViewFireExtinguisherAction.java
+END
+AddLocationAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/CRM/!svn/ver/27/web/WEB-INF/src/com/pfe/crm/action/customer/AddLocationAction.java
+END
+DeleteServiceAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/CRM/!svn/ver/45/web/WEB-INF/src/com/pfe/crm/action/customer/DeleteServiceAction.java
+END
+GoToDeleteLocationAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/action/customer/GoToDeleteLocationAction.java
+END
+DeleteCustomerAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/CRM/!svn/ver/18/web/WEB-INF/src/com/pfe/crm/action/customer/DeleteCustomerAction.java
+END
+ViewCustomerRevenueAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/CRM/!svn/ver/11/web/WEB-INF/src/com/pfe/crm/action/customer/ViewCustomerRevenueAction.java
+END
+EditBillingAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/CRM/!svn/ver/50/web/WEB-INF/src/com/pfe/crm/action/customer/EditBillingAction.java
+END
+ViewLocationsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/CRM/!svn/ver/44/web/WEB-INF/src/com/pfe/crm/action/customer/ViewLocationsAction.java
+END
+DeleteLocationAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/CRM/!svn/ver/18/web/WEB-INF/src/com/pfe/crm/action/customer/DeleteLocationAction.java
+END
+AddFireExtinguisherAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/CRM/!svn/ver/48/web/WEB-INF/src/com/pfe/crm/action/customer/AddFireExtinguisherAction.java
+END
+GoToDeleteFireExtinguisherAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/CRM/!svn/ver/39/web/WEB-INF/src/com/pfe/crm/action/customer/GoToDeleteFireExtinguisherAction.java
+END
+AddCustomerNoteAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/CRM/!svn/ver/10/web/WEB-INF/src/com/pfe/crm/action/customer/AddCustomerNoteAction.java
+END
+ViewServiceFireExtinguisherAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/action/customer/ViewServiceFireExtinguisherAction.java
+END

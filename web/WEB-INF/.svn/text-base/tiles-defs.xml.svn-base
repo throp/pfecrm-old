@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+ <!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN"
+       "http://struts.apache.org/dtds/tiles-config_1_1.dtd">
+
+<!-- 
+  Definitions for Tiles
+	
+	There is a different definition for each section of the application
+	(i.e. each tab).  
+-->
+
+<tiles-definitions>
+	<!-- Main layout ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<definition name="mainLayout" path="/layouts/main.jsp">
+		<put name="head" value="/includes/head.jsp" />
+		<put name="title" value="/includes/title.jsp" />
+		<put name="tabs" value="/includes/tabs_main.jsp" />
+		<put name="page_title" value="/title.jsp" />
+		<put name="page_options" value="options.jsp" />
+		<put name="body" value="/includes/default_body.jsp" />
+		<put name="bottom" value="/includes/bottom.jsp" />
+		<put name="dialogBoxes" value="/includes/dialog_boxes.jsp" />
+	</definition>
+	
+	<!-- Customer layout ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<definition name="customerLayout" path="/layouts/main.jsp">
+		<put name="head" value="/includes/head.jsp" />
+		<put name="title" value="/includes/title.jsp" />
+		<put name="tabs" value="/includes/tabs_customer.jsp" />
+		<put name="page_title" value="" />
+		<put name="page_options" value="/customer/options.jsp" />		
+		<put name="body" value="/includes/default_body.jsp" />
+		<put name="bottom" value="/includes/bottom.jsp" />
+		<put name="dialogBoxes" value="/includes/dialog_boxes.jsp" />
+	</definition>	
+	
+	<!-- Inventory layout ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<definition name="schedulingLayout" path="/layouts/main.jsp">
+		<put name="head" value="/includes/head.jsp" />
+		<put name="title" value="/includes/title.jsp" />
+		<put name="tabs" value="/includes/tabs_scheduling.jsp" />
+		<put name="page_title" value="" />
+		<put name="page_options" value="/scheduling/options.jsp" />		
+		<put name="body" value="/includes/default_body.jsp" />
+		<put name="bottom" value="/includes/bottom.jsp" />
+		<put name="dialogBoxes" value="/includes/dialog_boxes.jsp" />
+	</definition>	
+	
+	<!-- Reports layout ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<definition name="reportsLayout" path="/layouts/main.jsp">
+		<put name="head" value="/includes/head.jsp" />
+		<put name="title" value="/includes/title.jsp" />
+		<put name="tabs" value="/includes/tabs_reports.jsp" />
+		<put name="page_title" value="" />
+		<put name="page_options" value="/reports/options.jsp" />		
+		<put name="body" value="/includes/default_body.jsp" />
+		<put name="bottom" value="/includes/bottom.jsp" />
+		<put name="dialogBoxes" value="/includes/dialog_boxes.jsp" />
+	</definition>	
+	
+	<!-- Admin layout ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<definition name="adminLayout" path="/layouts/main.jsp">
+		<put name="head" value="/includes/head.jsp" />
+		<put name="title" value="/includes/title.jsp" />
+		<put name="tabs" value="/includes/tabs_admin.jsp" />
+		<put name="page_title" value="" />
+		<put name="page_options" value="/admin/options.jsp" />		
+		<put name="body" value="/includes/default_body.jsp" />
+		<put name="bottom" value="/includes/bottom.jsp" />
+		<put name="dialogBoxes" value="/includes/dialog_boxes.jsp" />
+	</definition>				
+	
+	<!-- Print layout ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<definition name="printLayout" path="/layouts/print.jsp">
+		<put name="head" value="/includes/head.jsp" />
+		<put name="page_title" value="" />		
+		<put name="body" value="/includes/print/default_body.jsp" />
+	</definition>
+</tiles-definitions>

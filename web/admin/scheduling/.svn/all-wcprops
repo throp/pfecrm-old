@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/CRM/!svn/ver/23/web/admin/scheduling
+END
+success_body.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/CRM/!svn/ver/21/web/admin/scheduling/success_body.jsp
+END
+success.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/CRM/!svn/ver/23/web/admin/scheduling/success.jsp
+END
+view_unstarted_jobs_body.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/CRM/!svn/ver/21/web/admin/scheduling/view_unstarted_jobs_body.jsp
+END
+recalculate_jobs_body.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/CRM/!svn/ver/21/web/admin/scheduling/recalculate_jobs_body.jsp
+END
+view_unstarted_jobs.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/CRM/!svn/ver/23/web/admin/scheduling/view_unstarted_jobs.jsp
+END
+recalculate_jobs.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/CRM/!svn/ver/23/web/admin/scheduling/recalculate_jobs.jsp
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/CRM/!svn/ver/1/web/WEB-INF/classes
+END
+message.properties
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/CRM/!svn/ver/1/web/WEB-INF/classes/message.properties
+END
+report.properties
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/CRM/!svn/ver/1/web/WEB-INF/classes/report.properties
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/CRM/!svn/ver/1/web/WEB-INF/classes/log4j.properties
+END
+hibernate.properties
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/CRM/!svn/ver/1/web/WEB-INF/classes/hibernate.properties
+END

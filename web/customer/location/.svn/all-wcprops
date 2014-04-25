@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/CRM/!svn/ver/52/web/customer/location
+END
+add_service_body.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/CRM/!svn/ver/13/web/customer/location/add_service_body.jsp
+END
+view_body.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/CRM/!svn/ver/27/web/customer/location/view_body.jsp
+END
+location.js
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/CRM/!svn/ver/27/web/customer/location/location.js
+END
+add.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/CRM/!svn/ver/1/web/customer/location/add.jsp
+END
+options.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/CRM/!svn/ver/27/web/customer/location/options.jsp
+END
+delete.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/CRM/!svn/ver/1/web/customer/location/delete.jsp
+END
+top.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/CRM/!svn/ver/27/web/customer/location/top.jsp
+END
+view_all.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/CRM/!svn/ver/1/web/customer/location/view_all.jsp
+END
+bottom.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/CRM/!svn/ver/1/web/customer/location/bottom.jsp
+END
+add_body.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/CRM/!svn/ver/27/web/customer/location/add_body.jsp
+END
+add_service.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/CRM/!svn/ver/1/web/customer/location/add_service.jsp
+END
+view.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/CRM/!svn/ver/1/web/customer/location/view.jsp
+END
+link_bar.jsp.bak
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/CRM/!svn/ver/1/web/customer/location/link_bar.jsp.bak
+END
+view_all_body.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/CRM/!svn/ver/27/web/customer/location/view_all_body.jsp
+END
+delete_body.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/CRM/!svn/ver/11/web/customer/location/delete_body.jsp
+END
+link_bar.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/CRM/!svn/ver/13/web/customer/location/link_bar.jsp
+END

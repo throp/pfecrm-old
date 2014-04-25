@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/CRM/!svn/ver/11/web/reports
+END
+main.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/CRM/!svn/ver/1/web/reports/main.jsp
+END
+work_report_body.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/CRM/!svn/ver/11/web/reports/work_report_body.jsp
+END
+options.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/CRM/!svn/ver/1/web/reports/options.jsp
+END
+lead_manager_body.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/CRM/!svn/ver/1/web/reports/lead_manager_body.jsp
+END
+work_report.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/CRM/!svn/ver/1/web/reports/work_report.jsp
+END
+lead_manager.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/CRM/!svn/ver/1/web/reports/lead_manager.jsp
+END
+main_body.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/CRM/!svn/ver/1/web/reports/main_body.jsp
+END

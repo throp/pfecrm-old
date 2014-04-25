@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/CRM/!svn/ver/11/web/customer/location/notes
+END
+delete_body.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/CRM/!svn/ver/1/web/customer/location/notes/delete_body.jsp
+END
+view_all_body.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/CRM/!svn/ver/11/web/customer/location/notes/view_all_body.jsp
+END
+delete.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/CRM/!svn/ver/1/web/customer/location/notes/delete.jsp
+END
+view_all.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/CRM/!svn/ver/1/web/customer/location/notes/view_all.jsp
+END

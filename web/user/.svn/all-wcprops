@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 25
+/CRM/!svn/ver/27/web/user
+END
+login_body.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/CRM/!svn/ver/1/web/user/login_body.jsp
+END
+logout_body.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/CRM/!svn/ver/27/web/user/logout_body.jsp
+END
+login.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/CRM/!svn/ver/1/web/user/login.jsp
+END
+logout.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/CRM/!svn/ver/1/web/user/logout.jsp
+END
+login_error_body.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/CRM/!svn/ver/1/web/user/login_error_body.jsp
+END
+login_error.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/CRM/!svn/ver/1/web/user/login_error.jsp
+END

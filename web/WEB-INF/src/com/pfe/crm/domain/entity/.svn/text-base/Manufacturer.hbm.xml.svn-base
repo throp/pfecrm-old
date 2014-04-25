@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+   "-//Hibernate/Hibernate Mapping DTD//EN"
+   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" > 
+<hibernate-mapping package="com.pfe.crm.domain.entity"> 
+	<class name="Manufacturer" table="manufacturer">
+		<id name="id" type="integer" column="manufacturer_id">
+			<generator class="increment" />
+		</id>
+		<property name="name" column="name_tx" not-null="true" />
+		<property name="abbreviation" column="abbreviation_tx" not-null="true" />
+		<property name="isFireExtinguisher" column="fire_extinguisher_bool" />
+		<property name="isActive" column="is_active_bn" type="java.lang.Boolean" />
+	</class>
+</hibernate-mapping>	

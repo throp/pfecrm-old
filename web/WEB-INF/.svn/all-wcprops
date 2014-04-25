@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/CRM/!svn/ver/51/web/WEB-INF
+END
+struts-config.xml.bak
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/CRM/!svn/ver/1/web/WEB-INF/struts-config.xml.bak
+END
+struts-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/CRM/!svn/ver/50/web/WEB-INF/struts-config.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/CRM/!svn/ver/27/web/WEB-INF/web.xml
+END
+tiles-defs.xml
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/CRM/!svn/ver/27/web/WEB-INF/tiles-defs.xml
+END

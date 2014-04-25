@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+   "-//Hibernate/Hibernate Mapping DTD//EN"
+   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" > 
+<hibernate-mapping package="com.pfe.crm.domain.entity"> 
+	<class name="ServiceCall" table="service_call">
+		<id name="id" column="service_call_id">
+			<generator class="increment" />
+		</id>
+		<property name="notes" column="notes_tx" not-null="false" />
+		<property name="datePlaced" column="placed_dt" not-null="true" />		
+		<many-to-one 
+			name="service" 
+			column="service_id" 
+			class="Service" 
+			not-null="true" 
+			outer-join="true" 
+			lazy="false" />
+		<many-to-one 
+			name="employee" 
+			column="employee_id" 
+			class="Employee" 
+			not-null="true" />			
+	</class>
+</hibernate-mapping>	

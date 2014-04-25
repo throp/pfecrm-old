@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/CRM/!svn/ver/51/web/WEB-INF/src/com/pfe/crm/dao/customer
+END
+OfficeDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/CRM/!svn/ver/50/web/WEB-INF/src/com/pfe/crm/dao/customer/OfficeDAO.java
+END
+ServiceDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/CRM/!svn/ver/38/web/WEB-INF/src/com/pfe/crm/dao/customer/ServiceDAO.java
+END
+CustomerDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/CRM/!svn/ver/39/web/WEB-INF/src/com/pfe/crm/dao/customer/CustomerDAO.java
+END
+FireExtinguisherDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/CRM/!svn/ver/39/web/WEB-INF/src/com/pfe/crm/dao/customer/FireExtinguisherDAO.java
+END
+LocationDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/CRM/!svn/ver/51/web/WEB-INF/src/com/pfe/crm/dao/customer/LocationDAO.java
+END

@@ -1,0 +1,10 @@
+			<Realm className="org.apache.catalina.realm.JDBCRealm" 
+			    debug="99"
+			    driverName="com.mysql.jdbc.Driver"
+			    connectionURL="jdbc:mysql://localhost/bennort_crm?user=bennort_crmuser"
+			    connectionPassword="p@ssword"
+			    userTable="employee"
+			    userNameCol="user_name_tx"
+			    userCredCol="user_password_tx"
+			    userRoleTable="crm_user_role"
+			    roleNameCol="role_name_tx" />

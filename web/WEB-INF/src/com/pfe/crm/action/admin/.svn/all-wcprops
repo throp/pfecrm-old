@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/CRM/!svn/ver/37/web/WEB-INF/src/com/pfe/crm/action/admin
+END
+DeleteEmployeeAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/CRM/!svn/ver/28/web/WEB-INF/src/com/pfe/crm/action/admin/DeleteEmployeeAction.java
+END
+ViewAllOfficesAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/CRM/!svn/ver/28/web/WEB-INF/src/com/pfe/crm/action/admin/ViewAllOfficesAction.java
+END
+AddOfficeAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/CRM/!svn/ver/27/web/WEB-INF/src/com/pfe/crm/action/admin/AddOfficeAction.java
+END
+CalculateJobScheduleAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/CRM/!svn/ver/23/web/WEB-INF/src/com/pfe/crm/action/admin/CalculateJobScheduleAction.java
+END
+AddManufacturerAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/CRM/!svn/ver/37/web/WEB-INF/src/com/pfe/crm/action/admin/AddManufacturerAction.java
+END
+ViewWeightsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/CRM/!svn/ver/28/web/WEB-INF/src/com/pfe/crm/action/admin/ViewWeightsAction.java
+END
+DeleteWeightAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/CRM/!svn/ver/28/web/WEB-INF/src/com/pfe/crm/action/admin/DeleteWeightAction.java
+END
+ViewEmployeeAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/CRM/!svn/ver/10/web/WEB-INF/src/com/pfe/crm/action/admin/ViewEmployeeAction.java
+END
+ViewManufacturersAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/CRM/!svn/ver/28/web/WEB-INF/src/com/pfe/crm/action/admin/ViewManufacturersAction.java
+END
+CalculateNumberUnstartedJobsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/CRM/!svn/ver/23/web/WEB-INF/src/com/pfe/crm/action/admin/CalculateNumberUnstartedJobsAction.java
+END
+AddChemicalAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/CRM/!svn/ver/30/web/WEB-INF/src/com/pfe/crm/action/admin/AddChemicalAction.java
+END
+DeleteManufacturerAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/CRM/!svn/ver/28/web/WEB-INF/src/com/pfe/crm/action/admin/DeleteManufacturerAction.java
+END
+GoToAddEmployeeAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/action/admin/GoToAddEmployeeAction.java
+END
+ViewChemicalsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/CRM/!svn/ver/28/web/WEB-INF/src/com/pfe/crm/action/admin/ViewChemicalsAction.java
+END
+EditEmployeeAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/CRM/!svn/ver/10/web/WEB-INF/src/com/pfe/crm/action/admin/EditEmployeeAction.java
+END
+ViewAllEmployeesAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/CRM/!svn/ver/29/web/WEB-INF/src/com/pfe/crm/action/admin/ViewAllEmployeesAction.java
+END
+DeleteChemicalAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/CRM/!svn/ver/28/web/WEB-INF/src/com/pfe/crm/action/admin/DeleteChemicalAction.java
+END
+AddEmployeeAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/CRM/!svn/ver/27/web/WEB-INF/src/com/pfe/crm/action/admin/AddEmployeeAction.java
+END
+GoToDeleteEmployeeAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/action/admin/GoToDeleteEmployeeAction.java
+END
+GoToAddOfficeAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/action/admin/GoToAddOfficeAction.java
+END
+ViewEmployeesAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/CRM/!svn/ver/28/web/WEB-INF/src/com/pfe/crm/action/admin/ViewEmployeesAction.java
+END
+GoToCalculateJobScheduleAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/CRM/!svn/ver/23/web/WEB-INF/src/com/pfe/crm/action/admin/GoToCalculateJobScheduleAction.java
+END
+AddWeightAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/CRM/!svn/ver/33/web/WEB-INF/src/com/pfe/crm/action/admin/AddWeightAction.java
+END

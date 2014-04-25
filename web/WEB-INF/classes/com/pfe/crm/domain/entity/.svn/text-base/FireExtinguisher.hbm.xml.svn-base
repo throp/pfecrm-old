@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+   "-//Hibernate/Hibernate Mapping DTD//EN"
+   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" > 
+<hibernate-mapping package="com.pfe.crm.domain.entity"> 
+	<class name="FireExtinguisher" table="fire_extinguisher">
+		<id name="id" column="fire_extinguisher_id">
+			<generator class="increment" />
+		</id>
+		<property name="location" column="location_tx" not-null="true" />		
+		<property name="floor" column="floor_num" 
+			type="com.pfe.crm.domain.type.FloorUserType" />
+		<property name="year" column="year_num" 
+			type="com.pfe.crm.domain.type.YearUserType" />	
+		<many-to-one 
+			name="manufacturer" 
+			column="manufacturer_id" 
+			class="Manufacturer" 
+			not-null="true" 
+			outer-join="true" />
+		<many-to-one 
+			name="chemical" 
+			column="chemical_id" 
+			class="Chemical" 
+			not-null="true" 
+			outer-join="true" />		
+		<many-to-one 
+			name="weight" 
+			column="weight_id" 
+			class="Weight" 
+			not-null="true" 
+			outer-join="true" />
+		<many-to-one 
+			name="service" 
+			column="service_id" 
+			class="Service" 
+			not-null="true" />
+		<property name="isLocked" column="locked_bool" />	
+	</class>
+</hibernate-mapping>

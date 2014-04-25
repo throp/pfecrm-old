@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/CRM/!svn/ver/6/web/WEB-INF/src/com/pfe/crm/report/customer
+END
+LocationLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/report/customer/LocationLoader.java
+END
+CustomerNotesLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/report/customer/CustomerNotesLoader.java
+END
+CustomerLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/CRM/!svn/ver/6/web/WEB-INF/src/com/pfe/crm/report/customer/CustomerLoader.java
+END
+LocationNotesLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/report/customer/LocationNotesLoader.java
+END
+FireExtinguisherLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/CRM/!svn/ver/3/web/WEB-INF/src/com/pfe/crm/report/customer/FireExtinguisherLoader.java
+END

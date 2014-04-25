@@ -1,0 +1,15 @@
+Refactoring
+-utility method to log errors
+-common base action for all
+-repackage to have modules
+-hibernate utilities
+-exception hierarchy
+
+
+Organization
+-portal page
+-time logger!
+
+Research
+-Hibernate!
+-Struts HTML tags...forms!

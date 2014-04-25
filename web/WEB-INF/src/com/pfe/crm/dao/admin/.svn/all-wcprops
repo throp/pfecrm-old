@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/CRM/!svn/ver/28/web/WEB-INF/src/com/pfe/crm/dao/admin
+END
+ManufacturerDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/CRM/!svn/ver/28/web/WEB-INF/src/com/pfe/crm/dao/admin/ManufacturerDAO.java
+END
+EmployeeDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/CRM/!svn/ver/28/web/WEB-INF/src/com/pfe/crm/dao/admin/EmployeeDAO.java
+END
+ChemicalDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/CRM/!svn/ver/28/web/WEB-INF/src/com/pfe/crm/dao/admin/ChemicalDAO.java
+END
+WeightDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/CRM/!svn/ver/28/web/WEB-INF/src/com/pfe/crm/dao/admin/WeightDAO.java
+END

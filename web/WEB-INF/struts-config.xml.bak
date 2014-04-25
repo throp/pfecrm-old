@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN"
+          "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+<struts-config>
+	<form-beans>
+	</form-beans>
+	<global-forwards>
+	    <forward name="Customer"					path="/customer/view_all.jsp" />
+	    <forward name="Location"					path="/customer/location/view_all.jsp" />	    
+	    <forward name="WorkReport" 				path="/reports/work_report.jsp" />
+	    <forward name="FireExtinguisher" 	path="/customer/location/fire_extinguisher/inventory.jsp" />
+	    <forward name="CustomerNotes" 		path="/customer/notes/view_all.jsp" />
+	    <forward name="LocationNotes"			path="/customer/location/notes/view_all.jsp" />
+	    <forward name="RoutingManager"				path="/scheduling/routing_manager.jsp" />
+	    <forward name="TechManager" 			path="/scheduling/tech_manager.jsp" />
+	</global-forwards>
+  <action-mappings>
+    <action path="/GoToUpdateJobAction" 
+    				type="com.pfe.crm.scheduling.web.action.GoToUpdateJobAction" 
+    				scope="request" >
+    	<forward name="RoadTechQueue" path="/scheduling/update_job/road_tech_queue.jsp" />
+    	<forward name="ShopTechQueue" path="/scheduling/update_job/shop_tech_queue.jsp" />
+    	<forward name="Returned" path="/scheduling/update_job/returned.jsp" />
+    	<forward name="UnknownState" path="/scheduling/update_job/unknown_state.jsp" />
+    </action>  
+    <action path="/UpdateJobForDeliveryAction" 
+    				type="com.pfe.crm.scheduling.web.action.UpdateJobForDeliveryAction" 
+    				scope="request" >
+    	<forward name="Success" path="/ReportQuery.do?reportKey=TechManager" />
+    </action>        
+    <action path="/GoToBillJobAction" 
+    				type="com.pfe.crm.scheduling.web.action.GoToBillJobAction" 
+    				scope="request" >
+    	<forward name="Success" path="/scheduling/bill/create.jsp" />
+    </action>     
+    <action path="/UpdateJobReleaseAction" 
+    				type="com.pfe.crm.scheduling.web.action.UpdateJobReleaseAction" 
+    				scope="request" >
+    	<forward name="Success" path="/ReportQuery.do?reportKey=TechManager" />
+    </action>     
+    <action path="/UpdateJobAssignShopTechAction" 
+    				type="com.pfe.crm.scheduling.web.action.UpdateJobAssignShopTechAction" 
+    				scope="request" >
+    	<forward name="Success" path="/ReportQuery.do?reportKey=TechManager" />
+    </action>            
+    <action path="/AddToQueueAction" 
+    				type="com.pfe.crm.scheduling.web.action.AddToQueueAction" 
+    				scope="request" >
+    	<forward name="Success" path="/ReportQuery.do?reportKey=TechManager" />
+    </action>    
+    <action path="/GoToAddToQueueAction" 
+    				type="com.pfe.crm.scheduling.web.action.GoToAddToQueueAction" 
+    				scope="request" >
+    	<forward name="Success" path="/scheduling/add_to_queue.jsp" />
+    </action>  
+    <action path="/AddCustomerAction" 
+    				type="com.pfe.crm.customer.web.action.AddCustomerAction" 
+    				scope="request" >
+    	<forward name="Success" path="/ViewBillingAction.do" redirect="false" />
+    	<forward name="Duplicate" path="/customer/error.jsp"  />    	
+    </action>
+    <action path="/DeleteCustomerAction" 
+    				type="com.pfe.crm.customer.web.action.DeleteCustomerAction" 
+    				scope="request" >
+    	<forward name="Success" path="/ReportQuery.do?reportKey=Customer" />  	
+    </action>    
+    <action path="/GoToDeleteCustomerAction" 
+    				type="com.pfe.crm.customer.web.action.GoToDeleteCustomerAction" 
+    				scope="request" >
+    	<forward name="Success" path="/customer/delete.jsp" />  	
+    </action>      
+    <action path="/AddLocationAction" 
+    				type="com.pfe.crm.customer.web.action.AddLocationAction" 
+    				scope="request" 
+    				name="LocationForm">
+    	<forward name="Success" path="/ReportQuery.do?reportKey=Location" redirect="false" />
+    </action>    
+    <action path="/DeleteLocationAction" 
+    				type="com.pfe.crm.customer.web.action.DeleteLocationAction" 
+    				scope="request" >
+    	<forward name="Success" path="/ReportQuery.do?reportKey=Location" />  	
+    </action>    
+    <action path="/GoToDeleteLocationAction" 
+    				type="com.pfe.crm.customer.web.action.GoToDeleteLocationAction" 
+    				scope="request" >
+    	<forward name="Success" path="/customer/location/delete.jsp" />  	
+    </action>        
+    <action path="/EditLocationAction" 
+    				type="com.pfe.crm.customer.web.action.EditLocationAction" 
+    				scope="request" 
+    				name="LocationForm">
+    	<forward name="Success" path="/ViewLocationAction.do" />
+    </action>      
+    <action path="/SearchCustomersAction" 
+    				type="com.pfe.crm.customer.web.action.SearchCustomersAction" 
+    				scope="request">
+    	<forward name="Success" path="/customer/search.jsp" />
+    </action>    
+    <action path="/ViewBillingAction" 
+    				type="com.pfe.crm.customer.web.action.ViewBillingAction" 
+    				scope="request"
+    				name="CustomerBillingForm">
+    	<forward name="Success" path="/customer/billing.jsp" />
+    </action>       
+    <action path="/EditBillingAction" 
+    				type="com.pfe.crm.customer.web.action.EditBillingAction" 
+    				scope="request"
+    				name="CustomerBillingForm">
+    	<forward name="Success" path="/ViewBillingAction.do" redirect="false"/>
+    </action>   
+    <action path="/ViewLocationAction" 
+    				type="com.pfe.crm.customer.web.action.ViewLocationAction" 
+    				scope="request">
+    	<forward name="Success" path="/customer/location/view.jsp" />
+    </action>     
+    <action path="/ViewServiceAction" 
+    				type="com.pfe.crm.customer.web.action.ViewServiceAction" 
+    				scope="request">
+    	<forward name="Fire Extinguisher" path="/ReportQuery.do?reportKey=FireExtinguisher" />
+    	<forward name="Fire Alarm" path="/customer/location/fire_alarm/inventory.jsp" />
+    	<forward name="Fire Hose" path="/customer/location/fire_hose/inventory.jsp" />
+    	<forward name="Suppression Systems" path="/customer/location/suppression_systems/inventory.jsp" />
+    	<forward name="Demos" path="/customer/location/demos/inventory.jsp" />
+    	<forward name="Emergency Lighting" path="/customer/location/emergency_lighting/inventory.jsp" />
+    </action>       
+    <action path="/GoToAddServiceAction" 
+    				type="com.pfe.crm.customer.web.action.GoToAddServiceAction" 
+    				scope="request">
+    	<forward name="Success" path="/customer/location/add_service.jsp" />
+    </action>          
+    <action path="/GoToAddFireExtinguisherAction" 
+    				type="com.pfe.crm.customer.web.action.GoToAddFireExtinguisherAction" 
+    				scope="request">
+    	<forward name="Success" path="/customer/location/fire_extinguisher/add.jsp" />
+    </action>       
+    <action path="/GoToAddCustomerNoteAction" 
+    				type="com.pfe.crm.customer.web.action.GoToAddCustomerNoteAction" 
+    				scope="request">
+    	<forward name="Success" path="/customer/notes/add.jsp" />
+    </action>      
+    
+    <action path="/AddCustomerNoteAction" 
+    				type="com.pfe.crm.customer.web.action.AddCustomerNoteAction" 
+    				scope="request">
+    	<forward name="Success" path="/ReportQuery.do?reportKey=CustomerNotes" />
+    </action>      
+    <action path="/AddLocationNoteAction" 
+    				type="com.pfe.crm.customer.web.action.AddLocationNoteAction" 
+    				scope="request">
+    	<forward name="Success" path="/ReportQuery.do?reportKey=LocationNotes" />
+    </action>       
+    <action path="/GoToDeleteLocationNoteAction" 
+    				type="com.pfe.crm.customer.web.action.GoToDeleteLocationNoteAction" 
+    				scope="request">
+    	<forward name="Success" path="/customer/location/notes/delete.jsp" />
+    </action>       
+    <action path="/DeleteLocationNoteAction" 
+    				type="com.pfe.crm.customer.web.action.DeleteLocationNoteAction" 
+    				scope="request">
+    	<forward name="Success" path="/ReportQuery.do?reportKey=LocationNotes" />
+    </action>       
+    <action path="/DeleteCustomerNoteAction" 
+    				type="com.pfe.crm.customer.web.action.DeleteCustomerNoteAction" 
+    				scope="request">
+    	<forward name="Success" path="/ReportQuery.do?reportKey=CustomerNotes" />
+    </action>     
+    <action path="/GoToDeleteCustomerNoteAction" 
+    				type="com.pfe.crm.customer.web.action.GoToDeleteCustomerNoteAction" 
+    				scope="request">
+    	<forward name="Success" path="/customer/notes/delete.jsp" />
+    </action>    
+    <action path="/GoToUpdateCustomerStatusAction" 
+    				type="com.pfe.crm.customer.web.action.GoToUpdateCustomerStatusAction" 
+    				scope="request">
+    	<forward name="Success" path="/customer/update_status.jsp" />
+    </action>         
+    <action path="/UpdateCustomerStatusAction" 
+    				type="com.pfe.crm.customer.web.action.UpdateCustomerStatusAction" 
+    				scope="request">
+    	<forward name="Success" path="/ViewBillingAction.do" />
+    </action>                           
+    <action path="/AddFireExtinguisherAction" 
+    				type="com.pfe.crm.customer.web.action.AddFireExtinguisherAction" 
+    				scope="request">
+    	<forward name="Success" path="/ReportQuery.do?reportKey=FireExtinguisher" />
+    </action>           
+    <action path="/DeleteFireExtinguisherAction" 
+    				type="com.pfe.crm.customer.web.action.DeleteFireExtinguisherAction" 
+    				scope="request" >
+    	<forward name="Success" path="/ReportQuery.do?reportKey=FireExtinguisher" />  	
+    </action>    
+    <action path="/GoToDeleteFireExtinguisherAction" 
+    				type="com.pfe.crm.customer.web.action.GoToDeleteFireExtinguisherAction" 
+    				scope="request" >
+    	<forward name="Success" path="/customer/location/fire_extinguisher/delete.jsp" />  	
+    </action>        
+    <action path="/ViewAllEmployeesAction"        
+    				type="com.pfe.crm.admin.web.action.ViewAllEmployeesAction"
+    				scope="request">
+    	<forward name="Success" path="/admin/employee/view_all.jsp" />
+    </action>
+    <action path="/ViewAllOfficesAction"        
+    				type="com.pfe.crm.admin.web.action.ViewAllOfficesAction"
+    				scope="request">
+    	<forward name="Success" path="/admin/office/view_all.jsp" />
+    </action>    
+    <action path="/AddEmployeeAction"
+    				type="com.pfe.crm.admin.web.action.AddEmployeeAction"
+    				scope="request">
+    	<forward name="Success" path="/ViewAllEmployeesAction.do" />
+    </action>
+    <action path="/ViewEmployeeAction"
+    				type="com.pfe.crm.admin.web.action.ViewEmployeeAction"
+    				scope="request">
+    	<forward name="Success" path="/admin/employee/view.jsp" />
+    </action>    
+    <action path="/GoToAddOfficeAction"
+    				type="com.pfe.crm.admin.web.action.GoToAddOfficeAction"
+    				scope="request">
+    	<forward name="Success" path="/admin/office/add.jsp" />
+    </action>        
+    <action path="/GoToAddEmployeeAction"
+    				type="com.pfe.crm.admin.web.action.GoToAddEmployeeAction"
+    				scope="request">
+    	<forward name="Success" path="/admin/employee/add.jsp" />
+    </action>       
+    <action path="/GoToDeleteEmployeeAction"
+    				type="com.pfe.crm.admin.web.action.GoToDeleteEmployeeAction"
+    				scope="request">
+    	<forward name="Success" path="/admin/employee/delete.jsp" />
+    </action>     
+    <action path="/DeleteEmployeeAction"
+    				type="com.pfe.crm.admin.web.action.DeleteEmployeeAction"
+    				scope="request">
+    	<forward name="Success" path="/ViewAllEmployeesAction.do" />
+    </action>     
+    <action path="/EditEmployeeAction"
+    				type="com.pfe.crm.admin.web.action.EditEmployeeAction"
+    				scope="request">
+    	<forward name="Success" path="/ViewAllEmployeesAction.do" />
+    </action>                 
+    <action path="/ViewManufacturersAction"        
+    				type="com.pfe.crm.admin.web.action.ViewManufacturersAction"
+    				scope="request">
+    	<forward name="Success" path="/admin/manufacturers_view.jsp" />
+    </action>
+    <action path="/AddManufacturerAction"
+    				type="com.pfe.crm.admin.web.action.AddManufacturerAction"
+    				scope="request">
+    	<forward name="Success" path="/ViewManufacturersAction.do" />
+    </action>    
+    <action path="/ViewChemicalsAction"        
+    				type="com.pfe.crm.admin.web.action.ViewChemicalsAction"
+    				scope="request">
+    	<forward name="Success" path="/admin/chemicals_view.jsp" />
+    </action>
+    <action path="/AddWeightAction"
+    				type="com.pfe.crm.admin.web.action.AddWeightAction"
+    				scope="request">
+    	<forward name="Success" path="/ViewWeightsAction.do" />
+    </action>      
+    <action path="/AddOfficeAction"
+    				type="com.pfe.crm.admin.web.action.AddOfficeAction"
+    				scope="request">
+    	<forward name="Success" path="/ViewAllOfficesAction.do" />
+    </action>         
+    <action path="/ViewWeightsAction"        
+    				type="com.pfe.crm.admin.web.action.ViewWeightsAction"
+    				scope="request">
+    	<forward name="Success" path="/admin/weights_view.jsp" />
+    </action>
+    <action path="/AddChemicalAction"
+    				type="com.pfe.crm.admin.web.action.AddChemicalAction"
+    				scope="request">
+    	<forward name="Success" path="/ViewChemicalsAction.do" />
+    </action>         
+    <action path="/AddServiceAction"
+    				type="com.pfe.crm.customer.web.action.AddServiceAction"
+    				scope="request">
+    	<forward name="Success" path="/ViewLocationAction.do" />
+    </action>  
+    <action path="/EditServiceAction"
+    				type="com.pfe.crm.customer.web.action.EditServiceAction"
+    				scope="request">
+    	<forward name="Success" path="/ViewServiceAction.do" />
+    </action>       
+    <action    path="/admin/tiles/reload"
+               type="org.apache.struts.tiles.actions.ReloadDefinitionsAction"/>
+    <action    path="/admin/tiles/view"
+               type="org.apache.struts.tiles.actions.ViewDefinitionsAction"/>
+               
+	 	<!-- Report Framework  -->
+		<action 	path="/ReportSort" 			type="com.ndg.report.SortAction" 		scope="request" />	
+		<action 	path="/ReportPage"			type="com.ndg.report.PageAction"	 	scope="request" />	
+		<action 	path="/ReportFilter"		type="com.ndg.report.FilterAction"	scope="request" />			
+		<action 	path="/ReportQuery" 		type="com.ndg.report.QueryAction"		scope="request" />       
+		<action 	path="/ReportRedirect" 	type="com.ndg.report.RedirectAction"		scope="request" />               
+		        
+	</action-mappings>
+
+	<message-resources null="false" parameter="CRMMessageResources" />
+	
+	<plug-in className="org.apache.struts.tiles.TilesPlugin">
+		<set-property property="definitions-config" value="/WEB-INF/tiles-defs.xml" />
+		<set-property property="definitions-debug" value="2" />
+		<set-property property="definitions-parser-details" value="2" />
+		<set-property property="definitions-parser-validate" value="true" />
+	</plug-in>
+
+
+</struts-config>

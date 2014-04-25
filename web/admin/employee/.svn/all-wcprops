@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/CRM/!svn/ver/28/web/admin/employee
+END
+add_body.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/CRM/!svn/ver/1/web/admin/employee/add_body.jsp
+END
+view_body.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/CRM/!svn/ver/18/web/admin/employee/view_body.jsp
+END
+add.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/CRM/!svn/ver/18/web/admin/employee/add.jsp
+END
+view.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/CRM/!svn/ver/18/web/admin/employee/view.jsp
+END
+action_log_body.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/CRM/!svn/ver/20/web/admin/employee/action_log_body.jsp
+END
+options.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/CRM/!svn/ver/18/web/admin/employee/options.jsp
+END
+action_log.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/CRM/!svn/ver/18/web/admin/employee/action_log.jsp
+END
+delete_body.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/CRM/!svn/ver/1/web/admin/employee/delete_body.jsp
+END
+view_all_body.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/CRM/!svn/ver/28/web/admin/employee/view_all_body.jsp
+END
+link_bar.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/CRM/!svn/ver/18/web/admin/employee/link_bar.jsp
+END
+delete.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/CRM/!svn/ver/1/web/admin/employee/delete.jsp
+END
+view_all.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/CRM/!svn/ver/18/web/admin/employee/view_all.jsp
+END

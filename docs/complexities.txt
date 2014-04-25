@@ -1,0 +1,11 @@
+Complexities:
+
+1) Number of Inventory Items cached for performance.
+
+2) Jobs for services scheduled in advance.  
+
+3) Service Call to Service relationship - redundant link!
+
+4) Service Types - hard coded.
+
+5) 

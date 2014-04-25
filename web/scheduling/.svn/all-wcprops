@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/CRM/!svn/ver/30/web/scheduling
+END
+main.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/CRM/!svn/ver/1/web/scheduling/main.jsp
+END
+invoice_manager.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/CRM/!svn/ver/10/web/scheduling/invoice_manager.jsp
+END
+wip_manager.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/CRM/!svn/ver/30/web/scheduling/wip_manager.jsp
+END
+options.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/CRM/!svn/ver/12/web/scheduling/options.jsp
+END
+routing_manager_body.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/CRM/!svn/ver/27/web/scheduling/routing_manager_body.jsp
+END
+routing_manager_dialog_boxes.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/CRM/!svn/ver/30/web/scheduling/routing_manager_dialog_boxes.jsp
+END
+routing_manager.js
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/CRM/!svn/ver/27/web/scheduling/routing_manager.js
+END
+main_body.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/CRM/!svn/ver/23/web/scheduling/main_body.jsp
+END
+revenue_manager.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/CRM/!svn/ver/12/web/scheduling/revenue_manager.jsp
+END
+invoice_manager_body.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/CRM/!svn/ver/12/web/scheduling/invoice_manager_body.jsp
+END
+view_job.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/CRM/!svn/ver/12/web/scheduling/view_job.jsp
+END
+wip_manager_print.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/CRM/!svn/ver/19/web/scheduling/wip_manager_print.jsp
+END
+wip_manager_body.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/CRM/!svn/ver/30/web/scheduling/wip_manager_body.jsp
+END
+revenue_manager_body.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/CRM/!svn/ver/12/web/scheduling/revenue_manager_body.jsp
+END
+routing_manager.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/CRM/!svn/ver/27/web/scheduling/routing_manager.jsp
+END
+view_job_body.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/CRM/!svn/ver/12/web/scheduling/view_job_body.jsp
+END
+routing_manager_title.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/CRM/!svn/ver/27/web/scheduling/routing_manager_title.jsp
+END
+wip_manager_print_body.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/CRM/!svn/ver/19/web/scheduling/wip_manager_print_body.jsp
+END

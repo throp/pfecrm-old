@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/CRM/!svn/ver/1/web/customer/notes
+END
+bottom.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/CRM/!svn/ver/1/web/customer/notes/bottom.jsp
+END
+add_body.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/CRM/!svn/ver/1/web/customer/notes/add_body.jsp
+END
+notes_body.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/CRM/!svn/ver/1/web/customer/notes/notes_body.jsp
+END
+add.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/CRM/!svn/ver/1/web/customer/notes/add.jsp
+END
+notes.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/CRM/!svn/ver/1/web/customer/notes/notes.jsp
+END
+options.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/CRM/!svn/ver/1/web/customer/notes/options.jsp
+END
+delete_body.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/CRM/!svn/ver/1/web/customer/notes/delete_body.jsp
+END
+view_all_body.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/CRM/!svn/ver/1/web/customer/notes/view_all_body.jsp
+END
+delete.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/CRM/!svn/ver/1/web/customer/notes/delete.jsp
+END
+top.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/CRM/!svn/ver/1/web/customer/notes/top.jsp
+END
+view_all.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/CRM/!svn/ver/1/web/customer/notes/view_all.jsp
+END
